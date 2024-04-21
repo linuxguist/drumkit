@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Drum Kit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<h1>Press the number on your keyboard (From Either Numeric Keypad OR The Regular Keypad) that corresponds to the sound that you want to play.</h1>
+
+<div class="keys">
+    <div data-key="0" class="key">
+        <kbd>0</kbd>
+        <span class="sound">boom</span>
+    </div>
+    <div data-key="1" class="key">
+        <kbd>1</kbd>
+        <span class="sound">clap</span>
+    </div>
+    <div data-key="2" class="key">
+        <kbd>2</kbd>
+        <span class="sound">hihat</span>
+    </div>
+    <div data-key="3" class="key">
+        <kbd>3</kbd>
+        <span class="sound">openhat</span>
+    </div>    
+    <div data-key="4" class="key">
+        <kbd>4</kbd>
+        <span class="sound">kick</span>
+    </div>
+    <div data-key="5" class="key">
+        <kbd>5</kbd>
+        <span class="sound">ride</span>
+    </div>
+    <div data-key="6" class="key">
+        <kbd>6</kbd>
+        <span class="sound">snare</span>
+    </div>
+    <div data-key="7" class="key">
+        <kbd>7</kbd>
+        <span class="sound">tom</span>
+    </div>    
+    <div data-key="8" class="key">
+        <kbd>8</kbd>
+        <span class="sound">tink</span>
+    </div>    
+</div>
+
+<audio preload="auto" data-key="1" src="sounds/clap.wav"></audio>
+
+<audio preload="auto" data-key="0" src="sounds/boom.wav"></audio>
+
+<audio preload="auto" data-key="2" src="sounds/hihat.wav"></audio>
+
+<audio preload="auto" data-key="3" src="sounds/openhat.wav"></audio>
+
+<audio preload="auto" data-key="4" src="sounds/kick.wav"></audio>
+
+<audio preload="auto" data-key="5" src="sounds/ride.wav"></audio>
+
+<audio preload="auto" data-key="6" src="sounds/snare.wav"></audio>
+
+<audio preload="auto" data-key="7" src="sounds/tom.wav"></audio>
+
+<audio preload="auto" data-key="8" src="sounds/tink.wav"></audio>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
